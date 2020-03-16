@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso Javascript</title>
+    </head>
+
+    <body>
+
+        <div id="app">
+            <button class="botaoBox">Adicionar Box</button>
+        </div>
+
+        <script>
+            /** 1º exercício
+             * Crie um botão que ao ser clicado cria um novo elemento em tela com a forma de um quadradovermelho com 100px de 
+             * altura e largura. Sempre que o botão for clicado um novo quadrado deveaparecer na tela.
+            */
+            function gerarQuadrado() {
+                var boxElement = document.createElement("div");
+                boxElement.style.width = "100px";
+                boxElement.style.height = "100px";
+                boxElement.style.margin = "10px";
+                boxElement.style.backgroundColor = '#f00';
+
+                // Adiciona a classe .box na div criada
+                boxElement.classList.add('box');
+                document.body.appendChild(boxElement);
+            }
+
+            var btnElement = document.querySelector('button.botaoBox');
+            btnElement.onclick = function(){
+                gerarQuadrado();
+            }
+        </script>
+    </body>
+</html>

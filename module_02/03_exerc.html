@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curso Javascript</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <ul></ul>
+    </div>
+
+    <script>
+        /** 3º exercício
+         * Utilizando o vetor dado. Preencha uma lista (<ul>) no HTML com os itens da seguinte forma: 
+         * Diego 
+         * Gabriel 
+         * Lucas
+        */
+        
+        var nomes = ["Diego", "Gabriel", "Lucas"];
+        var listaElement = document.querySelector("ul");
+
+        for (let nome of nomes) {
+            addName(nome);
+        }
+
+        function addName(nome) {
+            var addLinha = document.createElement("li");
+            var nomeElement = document.createTextNode(nome);
+            addLinha.appendChild(nomeElement);
+            listaElement.appendChild(addLinha);
+        }
+    </script>
+</body>
+
+</html>
