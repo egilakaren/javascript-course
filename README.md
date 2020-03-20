@@ -1,32 +1,38 @@
 # javascript-course
 
-- Introdução Javascript
-Introdução
-Configurando ambiente
-Variáveis e dados
-Operações matemáticas
-Funções
-Condicionais
-Operadores lógicos
-Condição ternária
-Estruturas de repetição
-Intervalo e timeout
+[Curso Javascript](https://skylab.rocketseat.com.br/node/curso-java-script) disponibilizado pela Rocketseat
 
-- Manipulando a DOM
-Eventos inline
-Trabalhando com a DOM
-Lidando com elementos
-Alterando estilos
+> Modulos realizados: 
+1. Introdução Javascript
+    *  Introdução
+    *  Configurando ambiente
+    *  Variáveis e dados
+    *  Operações matemáticas
+    *  Funções
+    *  Condicionais
+    *  Operadores lógicos
+    *  Condição ternária
+    *  Estruturas de repetição
+    *  Intervalo e timeout
+    * - [x] Desafio
 
-- App de Todos
-Estrutura do app
-Iniciando aplicação
-Renderizando Todos
-Criando Todos
-Excluindo Todos
-Salvando no storage
+2. Manipulando a DOM
+    *  Eventos inline
+    *  Trabalhando com a DOM
+    *  Lidando com elementos
+    *  Alterando estilos
+    * - [x] Desafio
 
-- JS Assincrono
-Requisições AJAX
-Promises
-Utilizando Axios
+3. App de Todos
+    *  Estrutura do app
+    *  Iniciando aplicação
+    *  Renderizando Todos
+    *  Criando Todos
+    *  Excluindo Todos
+    *  Salvando no storage
+
+4. JS Assincrono
+    *  Requisições AJAX
+    *  Promises
+    *  Utilizando Axios
+    * - [x] Desafio
